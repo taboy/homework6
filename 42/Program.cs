@@ -1,6 +1,6 @@
 ﻿// Задача 42: Определить, сколько чисел больше 0 введено с клавиатуры.
 Console.WriteLine("write numbers");
-string arr=(Console.ReadLine());
+string arr=Console.ReadLine();
 string [] array= arr.Split(' ',',');
 int []numbers= new int[array.Length];
 
@@ -10,7 +10,12 @@ int counter=0;
 for(int i=0;i<numbers.Length;i++){
     //int counter=0;
     if (numbers[i]>0) counter++;
-    
-
 }
+
+
+
+
+
+
+
 Console.WriteLine(counter);
